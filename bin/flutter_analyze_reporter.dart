@@ -1,6 +1,6 @@
 library flutter_analyze_reporter;
 
-import 'package:flutter_analyze_reporter/src/cli_runner.dart';
+import 'package:flutter_analyze_reporter_2/src/cli_runner.dart';
 
 // Activate locally: dart pub global activate -s path .
 void main(List<String> args) {

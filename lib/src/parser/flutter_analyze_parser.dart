@@ -2,9 +2,9 @@ import 'dart:convert';
 import 'dart:core';
 import 'dart:io';
 
-import 'package:flutter_analyze_reporter/src/model/issue.dart';
-import 'package:flutter_analyze_reporter/src/model/issue_type.dart';
-import 'package:flutter_analyze_reporter/src/model/location.dart';
+import 'package:flutter_analyze_reporter_2/src/model/issue.dart';
+import 'package:flutter_analyze_reporter_2/src/model/issue_type.dart';
+import 'package:flutter_analyze_reporter_2/src/model/location.dart';
 
 class FlutterAnalyzeParser {
   List<Issue> flutterAnalyze({String? stdout}) {

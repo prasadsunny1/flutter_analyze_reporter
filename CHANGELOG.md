@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.0
+
+* Support new GitLab report format
+
 ## 0.1.2
 
 * Documentation and GitHub Workflow sample

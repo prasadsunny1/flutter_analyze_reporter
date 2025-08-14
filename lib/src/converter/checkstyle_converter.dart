@@ -1,5 +1,5 @@
-import 'package:flutter_analyze_reporter/src/converter/converter.dart';
-import 'package:flutter_analyze_reporter/src/model/issue.dart';
+import 'package:flutter_analyze_reporter_2/src/converter/converter.dart';
+import 'package:flutter_analyze_reporter_2/src/model/issue.dart';
 import 'package:xml/xml.dart';
 
 /// Convert to checkstyle XML.
