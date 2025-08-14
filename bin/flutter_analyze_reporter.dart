@@ -1,4 +1,4 @@
-library flutter_analyze_reporter;
+library flutter_analyze_reporter_2;
 
 import 'package:flutter_analyze_reporter_2/src/cli_runner.dart';
 
