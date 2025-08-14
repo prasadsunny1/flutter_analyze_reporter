@@ -6,8 +6,7 @@ import 'package:flutter_analyze_reporter/src/model/issue.dart';
 import 'package:flutter_analyze_reporter/src/model/issue_type.dart';
 import 'package:flutter_analyze_reporter/src/model/reporter/gitlab/gitlab_issue.dart';
 import 'package:flutter_analyze_reporter/src/model/reporter/gitlab/gitlab_location.dart';
-import 'package:flutter_analyze_reporter/src/model/reporter/gitlab/gitlab_position.dart';
-import 'package:flutter_analyze_reporter/src/model/reporter/gitlab/gitlab_positions.dart';
+// positions are no longer used; GitLab accepts lines.begin
 
 /// Convert to GitLab Code Quality Widget JSON.
 class GitLabConverter extends Converter {
@@ -26,16 +25,7 @@ class GitLabConverter extends Converter {
           fingerprint: md5.convert(utf8.encode(element.raw)).toString(),
           location: GitLabLocation(
             path: element.location.path,
-            positions: GitlabPositions(
-              begin: GitLabPosition(
-                line: element.location.line,
-                column: element.location.column,
-              ),
-              end: GitLabPosition(
-                line: element.location.line,
-                column: element.location.column,
-              ),
-            ),
+            beginLine: element.location.line,
           ),
         ),
       );
@@ -74,7 +64,7 @@ class GitLabConverter extends Converter {
         severity = "info";
         break;
       case IssueType.warning:
-        severity = "major";
+        severity = "minor";
         break;
       case IssueType.error:
         severity = "blocker";

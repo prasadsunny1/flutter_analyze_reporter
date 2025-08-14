@@ -1,16 +1,16 @@
-import 'package:flutter_analyze_reporter/src/model/reporter/gitlab/gitlab_positions.dart';
-
 class GitLabLocation {
   final String path;
-  final GitlabPositions positions;
+  final int beginLine;
 
   GitLabLocation({
     required this.path,
-    required this.positions,
+    required this.beginLine,
   });
 
   Map<String, dynamic> toJson() => {
         'path': path,
-        'positions': positions,
+        'lines': {
+          'begin': beginLine,
+        },
       };
 }
