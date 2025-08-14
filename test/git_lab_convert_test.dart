@@ -21,19 +21,3 @@ void main() {
         isTrue);
   });
 }
-
-
-[
-  {
-    "description": "'unused' is assigned a value but never used.",
-    "check_name": "no-unused-vars",
-    "fingerprint": "7815696ecbf1c96e6894b779456d330e",
-    "severity": "minor",
-    "location": {
-      "path": "lib/index.js",
-      "lines": {
-        "begin": 42
-      }
-    }
-  }
-]
