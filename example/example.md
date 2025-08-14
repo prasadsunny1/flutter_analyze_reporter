@@ -32,8 +32,8 @@ code_quality:
   before_script:
     - export PATH="$PATH":"$HOME/.pub-cache/bin"
   script:
-    - dart pub global activate flutter_analyze_reporter
-    - flutter_analyze_reporter --output report.json --reporter gitlab
+    - dart pub global activate flutter_analyze_reporter_2
+    - flutter_analyze_reporter_2 --output report.json --reporter gitlab
   artifacts: 
     reports:
       codequality: report.json
