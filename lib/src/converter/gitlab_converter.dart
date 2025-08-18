@@ -1,11 +1,11 @@
 import 'dart:convert';
 
 import 'package:crypto/crypto.dart';
-import 'package:flutter_analyze_reporter_2/src/converter/converter.dart';
-import 'package:flutter_analyze_reporter_2/src/model/issue.dart';
-import 'package:flutter_analyze_reporter_2/src/model/issue_type.dart';
-import 'package:flutter_analyze_reporter_2/src/model/reporter/gitlab/gitlab_issue.dart';
-import 'package:flutter_analyze_reporter_2/src/model/reporter/gitlab/gitlab_location.dart';
+import 'converter.dart';
+import '../model/issue.dart';
+import '../model/issue_type.dart';
+import '../model/reporter/gitlab/gitlab_issue.dart';
+import '../model/reporter/gitlab/gitlab_location.dart';
 // positions are no longer used; GitLab accepts lines.begin
 
 /// Convert to GitLab Code Quality Widget JSON.

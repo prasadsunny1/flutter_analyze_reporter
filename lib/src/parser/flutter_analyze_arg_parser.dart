@@ -1,5 +1,5 @@
 import 'package:args/args.dart';
-import 'package:flutter_analyze_reporter_2/src/model/reporter/reporter.dart';
+import '../model/reporter/reporter.dart';
 
 class FlutterAnalyzeArgParser {
   static final ArgParser _parser = ArgParser();

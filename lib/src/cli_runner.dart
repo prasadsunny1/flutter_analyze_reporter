@@ -2,13 +2,13 @@ import 'dart:core';
 import 'dart:io';
 
 import 'package:args/args.dart';
-import 'package:flutter_analyze_reporter_2/src/converter/checkstyle_converter.dart';
-import 'package:flutter_analyze_reporter_2/src/converter/console_converter.dart';
-import 'package:flutter_analyze_reporter_2/src/converter/github_converter.dart';
-import 'package:flutter_analyze_reporter_2/src/converter/gitlab_converter.dart';
-import 'package:flutter_analyze_reporter_2/src/model/reporter/reporter.dart';
-import 'package:flutter_analyze_reporter_2/src/parser/flutter_analyze_arg_parser.dart';
-import 'package:flutter_analyze_reporter_2/src/parser/flutter_analyze_parser.dart';
+import 'converter/checkstyle_converter.dart';
+import 'converter/console_converter.dart';
+import 'converter/github_converter.dart';
+import 'converter/gitlab_converter.dart';
+import 'model/reporter/reporter.dart';
+import 'parser/flutter_analyze_arg_parser.dart';
+import 'parser/flutter_analyze_parser.dart';
 
 /// Command-line interface parsing and routing.
 class CliRunner {

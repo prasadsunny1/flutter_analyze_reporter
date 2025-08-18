@@ -1,5 +1,5 @@
-import 'package:flutter_analyze_reporter_2/src/model/issue_type.dart';
-import 'package:flutter_analyze_reporter_2/src/model/location.dart';
+import 'issue_type.dart';
+import 'location.dart';
 
 class Issue {
   final String raw;

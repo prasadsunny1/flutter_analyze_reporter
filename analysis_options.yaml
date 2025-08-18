@@ -4,3 +4,6 @@ analyzer:
     - 'example/**'
     - 'test/**'
     - 'bin/**'
+linter:
+  rules:
+    - prefer_relative_imports

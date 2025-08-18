@@ -1,4 +1,4 @@
-import 'package:flutter_analyze_reporter_2/src/model/reporter/gitlab/gitlab_location.dart';
+import 'gitlab_location.dart';
 
 class GitLabIssue {
   final String type;

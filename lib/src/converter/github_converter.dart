@@ -1,6 +1,6 @@
-import 'package:flutter_analyze_reporter_2/src/converter/converter.dart';
-import 'package:flutter_analyze_reporter_2/src/model/issue.dart';
-import 'package:flutter_analyze_reporter_2/src/model/issue_type.dart';
+import 'converter.dart';
+import '../model/issue.dart';
+import '../model/issue_type.dart';
 
 /// Print out GitHub workflow messages.
 /// https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions

@@ -1,4 +1,4 @@
-import 'package:flutter_analyze_reporter_2/src/model/issue.dart';
+import '../model/issue.dart';
 
 /// Converter interface.
 abstract class Converter {

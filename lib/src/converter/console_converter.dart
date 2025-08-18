@@ -1,7 +1,7 @@
 import 'package:ansicolor/ansicolor.dart';
-import 'package:flutter_analyze_reporter_2/src/converter/converter.dart';
-import 'package:flutter_analyze_reporter_2/src/model/issue.dart';
-import 'package:flutter_analyze_reporter_2/src/model/issue_type.dart';
+import 'converter.dart';
+import '../model/issue.dart';
+import '../model/issue_type.dart';
 
 /// Convert to console output.
 class ConsoleConverter extends Converter {
